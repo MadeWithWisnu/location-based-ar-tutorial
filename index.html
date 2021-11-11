@@ -18,7 +18,8 @@
 </head>
 
 <body style='margin: 0; overflow: hidden;'>
-    <a-scene embedded arjs>
+    <a-scene embedded
+    arjs='sourceType: webcam; sourceWidth:120; sourceHeight:96; displayWidth: 120; displayHeight: 96; debugUIEnabled: false;'>
         <!-- The scale attribute is used because that model is pretty big -->
         <!-- and the custom rotation will make the model ‘look’ towards the user. -->
         <!-- The animation-mixer attribute tells the model to use its built-in animation. -->
